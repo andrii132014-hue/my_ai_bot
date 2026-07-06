@@ -1,5 +1,4 @@
 fastapi
 uvicorn
-# додай сюди інші, наприклад:
-# requests
-# pydantic
+ollama
+requests
