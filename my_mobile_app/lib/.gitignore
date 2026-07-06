@@ -1,0 +1,7 @@
+__pycache__/
+.env
+.vscode/
+.idea/
+.dart_tool/
+.pub/
+build/
