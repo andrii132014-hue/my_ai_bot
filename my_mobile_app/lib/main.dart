@@ -21,7 +21,7 @@ class _ChatScreenState extends State<ChatScreen> {
     _controller.clear();
 
     final response = await http.post(
-      Uri.parse('http://10.0.2.2:8000/chat'),
+      Uri.parse('https://my-ai-bot-zz20.onrender.com/chat'),
       headers: {"Content-Type": "application/json"},
       body: json.encode({"text": userText}),
     );
